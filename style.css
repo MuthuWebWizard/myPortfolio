@@ -1,0 +1,133 @@
+body {
+    background-color: black;
+    color: white;
+    margin: 0px;
+    padding: 0px;
+}
+.rounded-circle {
+    margin-left: 130px;
+
+}
+.intro {
+    width: 450px;
+    height: 450px;
+    padding: 15px;
+    margin-top: 110px;
+    border-radius: 10px;
+    position: fixed;
+    box-shadow: 0px 5px 10px #c978f5;
+}
+.para1 {
+    text-align: justify;
+}
+.btn-primary {
+    margin-left: 120px;
+    box-shadow: 0px 5px 10px #c978f5;
+    background-color: #c978f5;
+}
+.heading {
+    color: #c978f5;
+    text-align: center;
+}
+.about-me {
+    width: 600px;
+    height: 350px;
+    box-shadow: 0px 5px 10px #c978f5;
+    padding: 15px;
+}
+.contact {
+    width: 600px;
+    box-shadow: 0px 5px 10px #c978f5;
+    padding: 15px;
+    margin-top: 80px;
+}
+
+.skill {
+    width: 100%;
+    max-width: 600px;
+    text-align: center;
+    box-shadow: 0px 5px 10px #c978f5;
+    padding: 15px;
+    margin-top: 40px;
+}
+
+.progress-bar-container {
+    background-color: #e0e0e0;
+    border-radius: 5px;
+    height: 20px;
+    position: relative;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.progress-bar {
+    background-color: #c978f5;
+    height: 100%;
+    line-height: 20px;
+    color: white;
+    text-align: center;
+    border-radius: 5px;
+    width: 70%;
+}
+.certification {
+    max-width: 600px;
+    height: 550px;
+    text-align: center;
+    box-shadow: 0px 5px 10px #c978f5;
+    padding: 15px;
+    margin-top: 40px;
+    border-radius: 10px;
+}
+
+.projects{
+    max-width: 600px;
+    height: 400px;
+    text-align: center;
+    justify-content: center;
+    box-shadow: 0px 5px 10px #c978f5;
+    padding: 15px;
+    margin-top: 40px;
+    margin-left: 12px;
+    border-radius: 10px;
+}
+.minproject {
+    width: calc(25% - 10px);
+    height: 120px;
+    border: 1px solid gray;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 10px;
+    margin-top: 10px;
+    margin-right: 7px;
+    border-radius: 5px; 
+    box-shadow: 0px 5px 10px #c978f5;
+    float: right;
+}
+
+.minproject h5 {
+    margin: 0;
+    font-size: 16px;
+    color: white;
+}
+
+.minproject hr {
+    width: 80%;
+    border: 0;
+    border-top: 1px solid gray;
+    margin: 5px 0;
+}
+
+.pro_link {
+    font-size: 15px;
+    margin-top: 5px;
+    color: #c978f5;
+    text-decoration: none;
+}
+.project-design {
+    display: none;
+    margin-top: 10px;
+}
