@@ -3,7 +3,7 @@ function downloadCV() {
 
     const link = document.createElement('a');
     link.href = cvUrl;
-    link.download = 'Muthulakshmi_CV.pdf';
+    link.download = 'Muthulakshmi_resume.pdf';
     document.body.appendChild(link); 
     link.click();
     document.body.removeChild(link); 
